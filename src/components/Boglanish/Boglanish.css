@@ -1,0 +1,59 @@
+.media__title{
+    color: var(--1-white, #FFF);
+    text-align: left;
+
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+}
+.boglanish{
+margin-top: 140px;
+}
+.media__about__phone{
+display: flex;
+gap: 0 11px;
+margin-top: 20px;
+}
+.media__about__phone>p{
+    color: #FFF;
+
+    /* H3 */
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 36.4px */
+}
+.media__about{
+margin-top: 42px;
+}
+.media__icons>img{
+padding-right: 32px;
+}
+.media__icons{
+margin-top: 42px;
+}
+.boglanish{
+display: flex;
+justify-content: space-between;
+}
+.map{
+max-width: 630px;
+width: 100%;
+height: 400px;
+}
+.iframe{
+width: 100%;
+height: 100%;
+border-radius: 24px;
+}
+
+@media screen and (max-width:890px) {
+    .boglanish{
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+        } 
+}
