@@ -8,8 +8,10 @@ import facebok from '../../imges/Facebook.svg'
 import call from '../../imges/call.svg'
 import mail from '../../imges/mail.svg'
 import location_on from '../../imges/location_on.png'
+import primeTech from '../../imges/primeTech.svg'
 const Footer = () => {
   return (
+    <div className='footerBack'>
     <div className='footer'>
         <div className='footer__icons'>
            <img src={icon} alt="" />
@@ -51,6 +53,11 @@ const Footer = () => {
          </div>
        </div>
         </div>
+    </div>
+    <div className='primetech'>
+      <img src={primeTech} alt="" />
+      <p>tomonidan ishlab chiqilgan</p>
+    </div>
     </div>
   )
 }

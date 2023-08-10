@@ -23,7 +23,7 @@ const Home = () => {
                <button className='headerHero__about__btn'>Bog`lanish</button>
         </div>
         <div className='headerHero__img'>
-           <img src={headerHero} alt="" />
+        <iframe  src="https://www.youtube.com/embed/NT_9cLYeLjA" title="Rayhon milliy taomlar (Arxiv)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
       <div className='headerHero__bottom'>

@@ -1,11 +1,15 @@
 .footer {
-    padding: 40px 75px;
-    background: rgba(255, 255, 255, 0.10);
+    
+    
     display: flex;
     justify-content: space-between;
-    margin-top: 144px;
+    
 }
-
+.footerBack{
+    margin-top: 144px;
+  padding: 40px 75px;  
+background: rgba(255, 255, 255, 0.10);
+}
 .footer__list>h4{
     color: #FFF;
 
@@ -35,7 +39,26 @@ padding-top: 16px;
 max-width: 410px;
 width: 100%;
 }
-
+.media__about__phone>img{
+width: 40px;
+height: 40px;
+}
+.primetech{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+}
+.primetech>p{
+    color: rgba(209, 225, 249, 0.50);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 25.2px */
+    letter-spacing: 0.36px;
+    margin-left: 8px;
+}
 @media screen and (max-width:950px) {
 .footer{
 flex-wrap: wrap;

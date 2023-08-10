@@ -116,13 +116,13 @@ background: #181A20;
 
   @media only screen and (max-width: 1100px) {
     .navbar{
-      background: #000000;
+      background: #181A20;
     }
     .nav-menu {
       display: flex;
       flex-direction: column;
       width: 100%;
-      border-top: 1pxsolid #fff;
+      border-top: 1px solid #fff;
       position: absolute;
       top: 80px;
       left: -110%;
