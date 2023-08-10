@@ -35,7 +35,8 @@ const Boglanish = () => {
          </div>
        </div>
        <div className='map'>
-       <iframe className='iframe' src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d29584.588101787434!2d69.22919654670999!3d41.3143483716686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srizvon%20milliy%20taomlar!5e0!3m2!1sru!2s!4v1691569866837!5m2!1sru!2s"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       <iframe className='iframe' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24404.25334886064!2d67.78642907431639!3d40.13043929999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b295e414424d05%3A0x611e514afb638e78!2sRIZVON%20Restaurant!5e0!3m2!1sru!2s!4v1691665023639!5m2!1sru!2s"   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       {/* <iframe  src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d29584.588101787434!2d69.22919654670999!3d41.3143483716686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srizvon%20milliy%20taomlar!5e0!3m2!1sru!2s!4v1691569866837!5m2!1sru!2s"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
        </div>
     </div>
   )
