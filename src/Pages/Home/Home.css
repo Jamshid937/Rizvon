@@ -76,7 +76,14 @@ border-radius: 24px;
     line-height: 130%;
     /* 23.4px */
 }
-
+.headerHero__about__btn>a{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    color: var(--neutral-black, #212121);
+}
 .headerHero__bottom__cards {
     display: flex;
 }

@@ -15,6 +15,7 @@ margin-top: 140px;
 display: flex;
 gap: 0 11px;
 margin-top: 20px;
+height: 40px;
 }
 .media__about__phone>p{
     color: #FFF;
@@ -33,7 +34,8 @@ margin-top: 42px;
 padding-right: 32px;
 }
 .media__icons{
-margin-top: 42px;
+    width: 300px;
+margin-top: 82px;
 }
 .boglanish{
 display: flex;

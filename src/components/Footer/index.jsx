@@ -38,15 +38,15 @@ const Footer = () => {
         <div className='media'>
          <h3 className='media__title'>Biz bilan bog’lanish</h3>
          <div className='media__about'>
-           <div className='media__about__phone'>
+           <div className='footer__about__phone'>
             <img src={call} alt="" />
             <p>+998 94 332 00 16</p>
            </div>
-           <div className='media__about__phone'>
+           <div className='footer__about__phone'>
             <img src={mail} alt="" />
             <p>rizvon@gmail.com</p>
            </div>
-           <div className='media__about__phone'>
+           <div className='footer__about__phone'>
             <img src={location_on} alt="" />
             <p>Toshkent shahri, Mirzo Ulug‘bek tumani, Shahriobod tumani</p>
            </div>

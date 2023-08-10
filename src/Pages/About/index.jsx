@@ -7,8 +7,9 @@ import Container from '../../layout/Container'
 const About = () => {
   return (
     <>
+  <NavBar></NavBar>
     <Container>
-    <NavBar></NavBar>
+    
     <div className='comments'>
         <div className='comments__cards'>
            <div className='comments__about'>

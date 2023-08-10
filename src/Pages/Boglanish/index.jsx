@@ -5,11 +5,12 @@ import NavBar from '../../components/NavBar/NavBar'
 import Container from '../../layout/Container'
 
 const Call = () => {
-  return (<>
-      <Container>
+  return (<>      
+  <NavBar></NavBar>
+    <Container>
 
-<NavBar></NavBar>
-<Boglanish></Boglanish>
+
+      <Boglanish></Boglanish>
 
     </Container>
     <Footer></Footer>

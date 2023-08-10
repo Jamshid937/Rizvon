@@ -1,15 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import NavBar from '../../components/NavBar/NavBar'
 import Container from '../../layout/Container'
 import "./Home.css"
 import AllMenu from '../../components/AllMenu'
-import headerHero from '../../imges/headerHero.png'
 import card from '../../imges/Frame.png'
 import main from '../../imges/Group.png'
 import location from '../../imges/location.png'
 import ellipse from '../../imges/Ellipse.png'
 import Boglanish from '../../components/Boglanish'
 import Footer from '../../components/Footer'
+
 const Home = () => {
   return (
     <>
@@ -20,7 +21,9 @@ const Home = () => {
               <p className='headerHero__about__link'>Ma'zzali va Halol taomlar</p>
                <h1 className='headerHero__about__title'>Jizzax shaxrida eng  ma'zzali va shirin taomlar barchasi Rizvon oilaviy Restaranida</h1>
                <p className='headerHero__about__text'>Rizvon oylaviy restarani sizlarni biz bilan birga Shakshlik yeyishga taklif qilamiz bizda hammasi Halol va mazzaliy siz bizni shashlikni yeganinggizda Boshqacha emoltsiya paydo bo`ladi hammasi bizda…</p>
-               <button className='headerHero__about__btn'>Bog`lanish</button>
+               <button className='headerHero__about__btn'>
+                <Link to='/boglanish'>Bog`lanish</Link>
+                </button>
         </div>
         <div className='headerHero__img'>
         <iframe  src="https://www.youtube.com/embed/NT_9cLYeLjA" title="Rayhon milliy taomlar (Arxiv)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
